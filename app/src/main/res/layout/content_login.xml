@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical"
+    android:fadingEdge="vertical">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/fab_margin"
+    android:paddingLeft="@dimen/fab_margin"
+    android:paddingRight="@dimen/fab_margin"
+    android:paddingTop="@dimen/fab_margin"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/accountEditText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="账号"
+        android:lines="1"
+        android:maxLength="16"
+        />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/accountEditText"
+        android:layout_alignLeft="@+id/accountEditText"
+        android:layout_alignStart="@+id/accountEditText"
+        android:layout_alignRight="@+id/accountEditText"
+        android:layout_alignEnd="@+id/accountEditText"
+        android:hint="密码"
+        android:lines="1"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginButton"
+        android:text="登录"
+        android:layout_below="@+id/passwordEditText"
+        android:layout_alignRight="@+id/accountEditText"
+        android:layout_alignEnd="@+id/accountEditText"
+        android:layout_alignLeft="@+id/accountEditText"
+        android:layout_alignStart="@+id/accountEditText"
+        android:onClick="login"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/registerBotton"
+        android:text="注册"
+        android:layout_below="@+id/loginButton"
+        android:layout_alignRight="@+id/accountEditText"
+        android:layout_alignEnd="@+id/accountEditText"
+        android:layout_alignLeft="@+id/accountEditText"
+        android:layout_alignStart="@+id/accountEditText"
+        android:onClick=""/>
+
+</RelativeLayout>
+</ScrollView>
