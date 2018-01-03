@@ -8,4 +8,123 @@
     tools:context="com.meng.examination.IndexActivity"
     tools:showIn="@layout/activity_index">
 
+    <com.fynn.fluidlayout.FluidLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/accountEditText"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="搜索"
+            android:lines="1"
+            android:maxLength="16"
+            />
+
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/accountEditText"
+            android:layout_alignLeft="@+id/accountEditText"
+            android:layout_alignRight="@+id/accountEditText"
+            android:layout_alignStart="@+id/accountEditText"
+            android:layout_below="@+id/passwordEditText"
+            android:text="搜索" />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dip"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/programmingButton"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="编程"
+                android:onClick="toPaperList"/>
+
+            <Button
+                android:id="@+id/rvButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="编程"
+                android:onClick="toPaperList"/>
+
+            <Button
+                android:id="@+id/rvButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="编程"
+                android:onClick="toPaperList"/>
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dip"
+            android:layout_marginTop="100dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/rvButton4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="编程"
+                android:onClick="toPaperList"/>
+
+            <Button
+                android:id="@+id/rvButton5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="编程"
+                android:onClick="toPaperList"/>
+
+            <Button
+                android:id="@+id/rvButton6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="编程"
+                android:onClick="toPaperList"/>
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="5dip"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/rvButton7"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="编程"
+                android:onClick="toPaperList"/>
+
+            <Button
+                android:id="@+id/rvButton8"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="编程"
+                android:onClick="toPaperList"/>
+
+            <Button
+                android:id="@+id/rvButton9"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="编程"
+                android:onClick="toPaperList"/>
+        </LinearLayout>
+    </com.fynn.fluidlayout.FluidLayout>
+
 </android.support.constraint.ConstraintLayout>
