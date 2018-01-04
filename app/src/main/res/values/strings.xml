@@ -2,4 +2,5 @@
     <string name="app_name">易百分</string>
     <string name="title_activity_index">IndexActivity</string>
     <string name="title_activity_paper_list">试卷</string>
+    <string name="title_activity_paper_info">试卷详情</string>
 </resources>

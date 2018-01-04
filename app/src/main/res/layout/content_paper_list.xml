@@ -24,49 +24,51 @@
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:layout_weight="1"
-                android:text="编程" />
+                android:text="广东工业大学2017年下半年程序设计（JAVA）绝密试卷（内含答案）"
+                android:onClick="paperInfo"
+                />
 
             <Button
                 android:id="@+id/Button2"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:layout_weight="1"
-                android:text="编程" />
+                android:text="广东工业大学2018年下半年程序设计（JAVA）绝密试卷（内含答案）" />
 
             <Button
                 android:id="@+id/Button3"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:layout_weight="1"
-                android:text="编程" />
+                android:text="广东工业大学2019年下半年程序设计（JAVA）绝密试卷（内含答案）" />
 
             <Button
                 android:id="@+id/Button4"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:layout_weight="1"
-                android:text="编程" />
+                android:text="广东工业大学2017年下半年程序设计（JAVA）绝密试卷（内含答案）" />
 
             <Button
                 android:id="@+id/Button5"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:layout_weight="1"
-                android:text="编程" />
+                android:text="广东工业大学2020年下半年程序设计（JAVA）绝密试卷（内含答案）" />
 
             <Button
                 android:id="@+id/Button6"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:layout_weight="1"
-                android:text="编程" />
+                android:text="广东工业大学2021年下半年程序设计（JAVA）绝密试卷（内含答案）" />
 
             <Button
                 android:id="@+id/Button7"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:layout_weight="1"
-                android:text="编程" />
+                android:text="广东工业大学2022年下半年程序设计（JAVA）绝密试卷（内含答案）" />
 
         </com.fynn.fluidlayout.FluidLayout>
 
