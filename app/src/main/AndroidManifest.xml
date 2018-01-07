@@ -27,6 +27,18 @@
         <activity
             android:name=".PaperInfoActivity"
             android:label="@string/title_activity_paper_info"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PaperDetailActivity"
+            android:label="@string/title_activity_paper_detail"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PaperResultActivity"
+            android:label="@string/title_activity_paper_result"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PaperAnalysisActivity"
+            android:label="@string/title_activity_paper_analysis"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

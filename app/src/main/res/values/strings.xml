@@ -3,4 +3,7 @@
     <string name="title_activity_index">IndexActivity</string>
     <string name="title_activity_paper_list">试卷</string>
     <string name="title_activity_paper_info">试卷详情</string>
+    <string name="title_activity_paper_detail">完成试卷</string>
+    <string name="title_activity_paper_result">试卷结果</string>
+    <string name="title_activity_paper_analysis">题目解析</string>
 </resources>

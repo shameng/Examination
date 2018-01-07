@@ -8,11 +8,49 @@
     tools:context="com.meng.examination.PaperInfoActivity"
     tools:showIn="@layout/activity_paper_info">
 
-    <TextView
-        android:id="@+id/paperTitle"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:gravity="center"
-        android:text="广东工业大学2017年下半年程序设计（JAVA）绝密试卷（内含答案）" />
+    <com.fynn.fluidlayout.FluidLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <TextView
+            android:id="@+id/paperTitle"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:text="广东工业大学2017年下半年程序设计（JAVA）绝密试卷（内含答案）"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="试卷详情：" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="本套试卷是我千辛万苦通过各种途径得来的，里面包含今年下半年的广工Java考试试题及其答案，为一级绝密内容，其含金量不言而喻，不为别的，只为给广工学子带去一份温暖。" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/buyPaperButton"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="购买试卷"
+            android:onClick=""/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/doPaperButton"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="进入试卷"
+            android:onClick="doPaper"/>
+
+    </com.fynn.fluidlayout.FluidLayout>
 
 </android.support.constraint.ConstraintLayout>
