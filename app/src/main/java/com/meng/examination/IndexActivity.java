@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.TextView;
 
 public class IndexActivity extends AppCompatActivity {
 
@@ -15,6 +16,11 @@ public class IndexActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        Intent intent = getIntent();
+        Bundle bundle = intent.getExtras();
+        String account = bundle.getString("account");
+        TextView accountTextView = (TextView) findViewById(R.id.account);
+        accountTextView.setText(account);
     }
 
     public void toPaperList(View view) {

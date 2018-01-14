@@ -29,6 +29,7 @@ public class LoginActivity extends AppCompatActivity {
         String password = passwordEditText.getText().toString();
 
         Intent intent = new Intent(LoginActivity.this, IndexActivity.class);
+        intent.putExtra("account", account);
         startActivity(intent);
     }
 }
